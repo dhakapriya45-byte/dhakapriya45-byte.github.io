@@ -1,32 +1,178 @@
-About
-Education
-Skills
-Contact
-Priya Dhaka
-Student from Rohtak, Haryana, ready to learn, grow and contribute in a professional setting.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Priya Dhaka | Academic Homepage</title>
+<meta name="description" content="Academic homepage of Priya Dhaka: research, publications, teaching, CV and contact.">
+<style>
+:root{
+  --bg:#f7f8f6; --surface:#ffffff; --text:#1d2a2a; --muted:#566564;
+  --accent:#1f6f6b; --accent-ink:#ffffff; --line:#d9dfdc;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#121a1a;--surface:#182222;--text:#e6eceb;--muted:#9fb0ae;--accent:#5cc2bb;--accent-ink:#0c1514;--line:#2a3837}
+}
+:root[data-theme="dark"]{--bg:#121a1a;--surface:#182222;--text:#e6eceb;--muted:#9fb0ae;--accent:#5cc2bb;--accent-ink:#0c1514;--line:#2a3837}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Georgia,"Times New Roman",serif}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:18px;align-items:center;flex-wrap:wrap;padding-top:12px;padding-bottom:12px;font:15px system-ui,sans-serif}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--accent)}
+nav .name{font-weight:700;color:var(--text);margin-right:auto}
+#theme{background:none;border:1px solid var(--line);color:var(--text);border-radius:6px;padding:4px 10px;cursor:pointer;font:14px system-ui,sans-serif}
+header.hero{padding:64px 0 40px;display:grid;grid-template-columns:170px 1fr;gap:32px;align-items:center}
+.photo{width:170px;height:170px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 56px system-ui,sans-serif;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+h1{font-size:2.5rem;line-height:1.15;margin:0 0 6px;letter-spacing:-.01em}
+.role{margin:0 0 14px;color:var(--muted);font-size:1.1rem}
+.links{display:flex;flex-wrap:wrap;gap:10px;font:15px system-ui,sans-serif}
+.btn{display:inline-block;padding:9px 16px;border-radius:6px;text-decoration:none;border:1px solid var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn:hover{opacity:.88}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-size:1.5rem;margin:0 0 16px}
+h3{font-size:1.05rem;margin:0}
+.item{margin:0 0 20px}
+.item p{margin:2px 0;color:var(--muted)}
+.meta{font:14px system-ui,sans-serif;color:var(--muted)}
+ul.plain{padding-left:20px;margin:6px 0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;font:14px system-ui,sans-serif}
+.tags li{border:1px solid var(--line);background:var(--surface);padding:4px 12px;border-radius:99px}
+footer{padding:28px 0 48px;border-top:1px solid var(--line);color:var(--muted);font:14px system-ui,sans-serif}
+@media(max-width:640px){
+  header.hero{grid-template-columns:1fr;text-align:left;padding-top:40px}
+  .photo{width:120px;height:120px;font-size:40px}
+  h1{font-size:2rem}
+}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
 
-View my LinkedIn
-Email me
-About me
-I am a motivated and hardworking 19-year-old looking for an opportunity to learn, grow and use my skills in a professional environment. My goal is to build a strong foundation for my career.
+<nav>
+  <div class="wrap">
+    <span class="name">Priya Dhaka</span>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+    <button id="theme" type="button" aria-label="Toggle dark mode">Theme</button>
+  </div>
+</nav>
 
-Education
-Class 12 (Senior Secondary)
-Newton Public School, Rohtak, Haryana
-Class 10 (Secondary)
-SVM Sr. Sec. School, Rohtak, Haryana
-Skills
-Communication and interpersonal skills
-Teamwork and cooperation
-Time management and punctuality
-Quick learner, adaptable, eager to take on new tasks
-Problem solving and attention to detail
-MS Word, Excel, PowerPoint and internet research
-Contact
-Email
-pdf17203@gmail.com
-LinkedIn
-linkedin.com/in/priya-dhaka-13b203420
-Location
-Rohtak, Haryana, India
-I declare that the information on this page is true and correct to the best of my knowledge. © 2026 Priya Dhaka
+<main class="wrap">
+
+<header class="hero" id="top">
+  <!-- To use a photo: add photo.jpg to the repo and replace the initials with <img src="photo.jpg" alt="Priya Dhaka"> -->
+  <div class="photo" aria-hidden="true">PD</div>
+  <div>
+    <h1>Priya Dhaka</h1>
+    <p class="role">Your position, Department, University</p>
+    <div class="links">
+      <a class="btn primary" href="https://1drv.ms/w/c/BDB2351B6F46CC75/IQBnUkt6MM6ISqM622Ji5P-uAcHaFFxW7SS9W9WBAOo3dp8?e=RrIT9D" target="_blank" rel="noopener">Download CV</a>
+      <a class="btn" href="https://www.linkedin.com/in/priya-dhaka-13b203420?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="#contact">Email</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>I am a researcher working on [your field]. My work focuses on [main topic] and [second topic]. I am currently [student / researcher / lecturer] at [institution], where I [brief description of your current work].</p>
+  <p>Before this, I [earlier study or experience]. I am interested in [collaboration, supervision, or opportunities you are seeking].</p>
+</section>
+
+<section id="research">
+  <h2>Research interests</h2>
+  <ul class="tags">
+    <li>Research topic 1</li>
+    <li>Research topic 2</li>
+    <li>Research topic 3</li>
+    <li>Research topic 4</li>
+  </ul>
+  <div class="item" style="margin-top:20px">
+    <h3>Current project: Project title</h3>
+    <p>Two or three sentences on the question you study, your method, and why it matters.</p>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <div class="item">
+    <h3>Title of paper</h3>
+    <p>Priya Dhaka, Co-author Name</p>
+    <p class="meta">Journal or conference, 2026 &middot; <a href="#">PDF</a> &middot; <a href="#">DOI</a></p>
+  </div>
+  <div class="item">
+    <h3>Title of another paper</h3>
+    <p>Co-author Name, Priya Dhaka</p>
+    <p class="meta">Journal or conference, 2025 &middot; <a href="#">PDF</a></p>
+  </div>
+  <p class="meta">Full list in my <a href="#cv">CV</a>.</p>
+</section>
+
+<section id="teaching">
+  <h2>Teaching</h2>
+  <div class="item">
+    <h3>Course title</h3>
+    <p class="meta">Role (e.g. Teaching assistant), University, Semester Year</p>
+  </div>
+  <div class="item">
+    <h3>Another course title</h3>
+    <p class="meta">Role, University, Semester Year</p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item">
+    <h3>Degree, Field</h3>
+    <p class="meta">University, Years</p>
+  </div>
+  <div class="item">
+    <h3>Earlier degree, Field</h3>
+    <p class="meta">University, Years</p>
+  </div>
+</section>
+
+<section id="cv">
+  <h2>Curriculum vitae</h2>
+  <p>My full CV, with education, experience, publications and skills, is available to read or download.</p>
+  <p><a class="btn primary" href="https://1drv.ms/w/c/BDB2351B6F46CC75/IQBnUkt6MM6ISqM622Ji5P-uAcHaFFxW7SS9W9WBAOo3dp8?e=RrIT9D" target="_blank" rel="noopener">Open CV</a></p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+    LinkedIn: <a href="https://www.linkedin.com/in/priya-dhaka-13b203420?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener">linkedin.com/in/priya-dhaka-13b203420</a><br>
+    Office: Building, Room, University
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">&copy; <span id="yr">2026</span> Priya Dhaka</div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+var btn = document.getElementById('theme');
+btn.addEventListener('click', function(){
+  var root = document.documentElement;
+  var dark = root.getAttribute('data-theme') === 'dark' ||
+    (!root.hasAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+  root.setAttribute('data-theme', dark ? 'light' : 'dark');
+});
+</script>
+</body>
+</html>
